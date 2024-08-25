@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ,ul ,li{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-color:rgb(255, 18, 18);
+    position: fixed;
+    width: 100%;
+}
+li{
+    margin-top: 12px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    animation-name:in ;
+}
+li:hover{
+    color: orange;
+}
+.logo{
+   margin-left: -200px;
+}
+.para{
+position: absolute;
+left: 50px;
+top: 200px;
+}
+button{
+    background-color: orangered;
+    height: 25px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    margin-left: -20px;
+    margin-top: -9px;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAADAgABBAYF/8QAHRABAQEAAgMBAQAAAAAAAAAAAAECAxEhMUESYf/EABoBAQADAQEBAAAAAAAAAAAAAAIAAQMFBAb/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIRA//aAAwDAQACEQMRAD8A+whMjhMtnbpMlyLJchWdJkuRZLkKzq4WDi8hQpITIoTI0CRUTFQaNUqekxUUDsd+OMiMzMimZmQXx+S5oskw9zr0uS5FkuQrKkySDyTIVnSQmRwkCgvJIPJIoKuLiIuAKlRKooK6zMiMzMgszMinxuabAMGw99demyWByXIVlSZJmjyvPsLApZSQcXkKFLlco8rg1nSRcRFwKKu1xMVFBXXXI6pHGjVviBWcZkU+NwfIMmy6NdmkyaByWBWVhIvPseSZGwKWLg4uUOM6WLg8+yQApMkyLJMhQq4uIi4IOx1yOqU1cdrlQa4zMinx0JgcJl07HZpc+l5FCZoWM6aLgsrl8hwKbKoOUko2M6XNJmhyTNZ2BSwmRQmQoUsVlGSZChXXXFCLn1KvqUGszMgvjovN8Iio6vHapZVZRmryPApJSZFCZGwKWVcoouUbGdNmkyHJIzsCmhMhzS5rOxnS5JmizSSs6FJHXI6FFy+3Ha5VDXGZli+OVEux2OO0SKlHKSDYNXmklFFyjwKWUkoZVyjxnTykzQSkzQsZ0+S5Bmlze2WoFPlcFkuWVCljqYtlQcTVJojXGZxYvjo7HO3XbdtcVKOKiuBSSrlFKqVOM6aVWaCaXKNjK16M0krzzS86C5Z2vTmmxXmzoudf1lrIdevNJmvPjR8VhqKp8rHkkYUKyapOgGoZmWD413tHbdu9x3Cduyj7btfGeqXt3sP6d/ScY2l7XNPP+lTSrllqvRNEm3lml50NyytezOjY08Odm49stZDr9DGno475fn8e/L1cW3n3lXXvxYWPNxaejDybi1I0tOmQ0bMywfFOMz6F2qzlrMtlWld7cZbLTvbSsymOlyqlZlMqvNpsWszOsz4t7erhtZmG1Pbw2vZhmeL0OLTp1nmqUbMygf/Z");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.card1{
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.card1 p{
+    text-align: justify;
+    margin-left: 10px;
+}
+.card1 img{
+    width: 240px;
+    border-radius: 20px;
+}
+.card1 button{
+    background-color: rgb(209, 44, 168);
+    height: 25px;
+}
+.para{
+    
+}
+i img{
+    display: none;
+
+}
+@keyframes in {
+    0%{
+        left: 0;
+    }
+    900%{
+        left: 20%;
+    }
+    
+}
+  
